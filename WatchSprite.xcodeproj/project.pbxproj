@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82C751EE1E8F90990021DB6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C751ED1E8F90990021DB6F /* AppDelegate.swift */; };
+		82C751F01E8F90990021DB6F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 82C751EF1E8F90990021DB6F /* GameScene.sks */; };
+		82C751F21E8F90990021DB6F /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 82C751F11E8F90990021DB6F /* Actions.sks */; };
+		82C751F41E8F90990021DB6F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C751F31E8F90990021DB6F /* GameScene.swift */; };
+		82C751F61E8F90990021DB6F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C751F51E8F90990021DB6F /* GameViewController.swift */; };
+		82C751F91E8F90990021DB6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82C751F71E8F90990021DB6F /* Main.storyboard */; };
+		82C751FB1E8F90990021DB6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82C751FA1E8F90990021DB6F /* Assets.xcassets */; };
+		82C751FE1E8F90990021DB6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82C751FC1E8F90990021DB6F /* LaunchScreen.storyboard */; };
+		82C752091E8F90990021DB6F /* WatchSpriteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C752081E8F90990021DB6F /* WatchSpriteTests.swift */; };
+		82C752141E8F90990021DB6F /* WatchSpriteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C752131E8F90990021DB6F /* WatchSpriteUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82C752051E8F90990021DB6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82C751E21E8F90990021DB6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82C751E91E8F90990021DB6F;
+			remoteInfo = WatchSprite;
+		};
+		82C752101E8F90990021DB6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82C751E21E8F90990021DB6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82C751E91E8F90990021DB6F;
+			remoteInfo = WatchSprite;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		82C751EA1E8F90990021DB6F /* WatchSprite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchSprite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82C751ED1E8F90990021DB6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		82C751EF1E8F90990021DB6F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		82C751F11E8F90990021DB6F /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		82C751F31E8F90990021DB6F /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		82C751F51E8F90990021DB6F /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		82C751F81E8F90990021DB6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82C751FA1E8F90990021DB6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82C751FD1E8F90990021DB6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82C751FF1E8F90990021DB6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82C752041E8F90990021DB6F /* WatchSpriteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchSpriteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82C752081E8F90990021DB6F /* WatchSpriteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSpriteTests.swift; sourceTree = "<group>"; };
+		82C7520A1E8F90990021DB6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82C7520F1E8F90990021DB6F /* WatchSpriteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchSpriteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82C752131E8F90990021DB6F /* WatchSpriteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSpriteUITests.swift; sourceTree = "<group>"; };
+		82C752151E8F90990021DB6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82C751E71E8F90990021DB6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82C752011E8F90990021DB6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82C7520C1E8F90990021DB6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82C751E11E8F90990021DB6F = {
+			isa = PBXGroup;
+			children = (
+				82C751EC1E8F90990021DB6F /* WatchSprite */,
+				82C752071E8F90990021DB6F /* WatchSpriteTests */,
+				82C752121E8F90990021DB6F /* WatchSpriteUITests */,
+				82C751EB1E8F90990021DB6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82C751EB1E8F90990021DB6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82C751EA1E8F90990021DB6F /* WatchSprite.app */,
+				82C752041E8F90990021DB6F /* WatchSpriteTests.xctest */,
+				82C7520F1E8F90990021DB6F /* WatchSpriteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82C751EC1E8F90990021DB6F /* WatchSprite */ = {
+			isa = PBXGroup;
+			children = (
+				82C751ED1E8F90990021DB6F /* AppDelegate.swift */,
+				82C751EF1E8F90990021DB6F /* GameScene.sks */,
+				82C751F11E8F90990021DB6F /* Actions.sks */,
+				82C751F31E8F90990021DB6F /* GameScene.swift */,
+				82C751F51E8F90990021DB6F /* GameViewController.swift */,
+				82C751F71E8F90990021DB6F /* Main.storyboard */,
+				82C751FA1E8F90990021DB6F /* Assets.xcassets */,
+				82C751FC1E8F90990021DB6F /* LaunchScreen.storyboard */,
+				82C751FF1E8F90990021DB6F /* Info.plist */,
+			);
+			path = WatchSprite;
+			sourceTree = "<group>";
+		};
+		82C752071E8F90990021DB6F /* WatchSpriteTests */ = {
+			isa = PBXGroup;
+			children = (
+				82C752081E8F90990021DB6F /* WatchSpriteTests.swift */,
+				82C7520A1E8F90990021DB6F /* Info.plist */,
+			);
+			path = WatchSpriteTests;
+			sourceTree = "<group>";
+		};
+		82C752121E8F90990021DB6F /* WatchSpriteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				82C752131E8F90990021DB6F /* WatchSpriteUITests.swift */,
+				82C752151E8F90990021DB6F /* Info.plist */,
+			);
+			path = WatchSpriteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82C751E91E8F90990021DB6F /* WatchSprite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82C752181E8F90990021DB6F /* Build configuration list for PBXNativeTarget "WatchSprite" */;
+			buildPhases = (
+				82C751E61E8F90990021DB6F /* Sources */,
+				82C751E71E8F90990021DB6F /* Frameworks */,
+				82C751E81E8F90990021DB6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WatchSprite;
+			productName = WatchSprite;
+			productReference = 82C751EA1E8F90990021DB6F /* WatchSprite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82C752031E8F90990021DB6F /* WatchSpriteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82C7521B1E8F90990021DB6F /* Build configuration list for PBXNativeTarget "WatchSpriteTests" */;
+			buildPhases = (
+				82C752001E8F90990021DB6F /* Sources */,
+				82C752011E8F90990021DB6F /* Frameworks */,
+				82C752021E8F90990021DB6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82C752061E8F90990021DB6F /* PBXTargetDependency */,
+			);
+			name = WatchSpriteTests;
+			productName = WatchSpriteTests;
+			productReference = 82C752041E8F90990021DB6F /* WatchSpriteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		82C7520E1E8F90990021DB6F /* WatchSpriteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82C7521E1E8F90990021DB6F /* Build configuration list for PBXNativeTarget "WatchSpriteUITests" */;
+			buildPhases = (
+				82C7520B1E8F90990021DB6F /* Sources */,
+				82C7520C1E8F90990021DB6F /* Frameworks */,
+				82C7520D1E8F90990021DB6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82C752111E8F90990021DB6F /* PBXTargetDependency */,
+			);
+			name = WatchSpriteUITests;
+			productName = WatchSpriteUITests;
+			productReference = 82C7520F1E8F90990021DB6F /* WatchSpriteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82C751E21E8F90990021DB6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "jayanti supransh murty";
+				TargetAttributes = {
+					82C751E91E8F90990021DB6F = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					82C752031E8F90990021DB6F = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 82C751E91E8F90990021DB6F;
+					};
+					82C7520E1E8F90990021DB6F = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 82C751E91E8F90990021DB6F;
+					};
+				};
+			};
+			buildConfigurationList = 82C751E51E8F90990021DB6F /* Build configuration list for PBXProject "WatchSprite" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82C751E11E8F90990021DB6F;
+			productRefGroup = 82C751EB1E8F90990021DB6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82C751E91E8F90990021DB6F /* WatchSprite */,
+				82C752031E8F90990021DB6F /* WatchSpriteTests */,
+				82C7520E1E8F90990021DB6F /* WatchSpriteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82C751E81E8F90990021DB6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82C751F91E8F90990021DB6F /* Main.storyboard in Resources */,
+				82C751F01E8F90990021DB6F /* GameScene.sks in Resources */,
+				82C751FB1E8F90990021DB6F /* Assets.xcassets in Resources */,
+				82C751FE1E8F90990021DB6F /* LaunchScreen.storyboard in Resources */,
+				82C751F21E8F90990021DB6F /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82C752021E8F90990021DB6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82C7520D1E8F90990021DB6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82C751E61E8F90990021DB6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82C751F41E8F90990021DB6F /* GameScene.swift in Sources */,
+				82C751F61E8F90990021DB6F /* GameViewController.swift in Sources */,
+				82C751EE1E8F90990021DB6F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82C752001E8F90990021DB6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82C752091E8F90990021DB6F /* WatchSpriteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82C7520B1E8F90990021DB6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82C752141E8F90990021DB6F /* WatchSpriteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82C752061E8F90990021DB6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82C751E91E8F90990021DB6F /* WatchSprite */;
+			targetProxy = 82C752051E8F90990021DB6F /* PBXContainerItemProxy */;
+		};
+		82C752111E8F90990021DB6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82C751E91E8F90990021DB6F /* WatchSprite */;
+			targetProxy = 82C752101E8F90990021DB6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82C751F71E8F90990021DB6F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82C751F81E8F90990021DB6F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82C751FC1E8F90990021DB6F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82C751FD1E8F90990021DB6F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82C752161E8F90990021DB6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82C752171E8F90990021DB6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82C752191E8F90990021DB6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WatchSprite/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = supransh.WatchSprite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		82C7521A1E8F90990021DB6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WatchSprite/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = supransh.WatchSprite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		82C7521C1E8F90990021DB6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WatchSpriteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = supransh.WatchSpriteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatchSprite.app/WatchSprite";
+			};
+			name = Debug;
+		};
+		82C7521D1E8F90990021DB6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WatchSpriteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = supransh.WatchSpriteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatchSprite.app/WatchSprite";
+			};
+			name = Release;
+		};
+		82C7521F1E8F90990021DB6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = WatchSpriteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = supransh.WatchSpriteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WatchSprite;
+			};
+			name = Debug;
+		};
+		82C752201E8F90990021DB6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = WatchSpriteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = supransh.WatchSpriteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WatchSprite;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82C751E51E8F90990021DB6F /* Build configuration list for PBXProject "WatchSprite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82C752161E8F90990021DB6F /* Debug */,
+				82C752171E8F90990021DB6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82C752181E8F90990021DB6F /* Build configuration list for PBXNativeTarget "WatchSprite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82C752191E8F90990021DB6F /* Debug */,
+				82C7521A1E8F90990021DB6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		82C7521B1E8F90990021DB6F /* Build configuration list for PBXNativeTarget "WatchSpriteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82C7521C1E8F90990021DB6F /* Debug */,
+				82C7521D1E8F90990021DB6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		82C7521E1E8F90990021DB6F /* Build configuration list for PBXNativeTarget "WatchSpriteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82C7521F1E8F90990021DB6F /* Debug */,
+				82C752201E8F90990021DB6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82C751E21E8F90990021DB6F /* Project object */;
+}
