@@ -14,6 +14,20 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "82C752221E8F90B10021DB6F"
+               BuildableName = "WatchGame.app"
+               BlueprintName = "WatchGame"
+               ReferencedContainer = "container:Pong!.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "82C751E91E8F90990021DB6F"
                BuildableName = "Pong!.app"
                BlueprintName = "Pong!"
@@ -28,33 +42,13 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "82C752031E8F90990021DB6F"
-               BuildableName = "Pong!Tests.xctest"
-               BlueprintName = "Pong!Tests"
-               ReferencedContainer = "container:Pong!.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "82C7520E1E8F90990021DB6F"
-               BuildableName = "Pong!UITests.xctest"
-               BlueprintName = "Pong!UITests"
-               ReferencedContainer = "container:Pong!.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "82C751E91E8F90990021DB6F"
-            BuildableName = "Pong!.app"
-            BlueprintName = "Pong!"
+            BlueprintIdentifier = "82C752221E8F90B10021DB6F"
+            BuildableName = "WatchGame.app"
+            BlueprintName = "WatchGame"
             ReferencedContainer = "container:Pong!.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -71,16 +65,27 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.Carousel"
+         RemotePath = "/WatchSprite">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "82C751E91E8F90990021DB6F"
-            BuildableName = "Pong!.app"
-            BlueprintName = "Pong!"
+            BlueprintIdentifier = "82C752221E8F90B10021DB6F"
+            BuildableName = "WatchGame.app"
+            BlueprintName = "WatchGame"
             ReferencedContainer = "container:Pong!.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "82C752221E8F90B10021DB6F"
+            BuildableName = "WatchGame.app"
+            BlueprintName = "WatchGame"
+            ReferencedContainer = "container:Pong!.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -90,16 +95,27 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.Carousel"
+         RemotePath = "/WatchSprite">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "82C751E91E8F90990021DB6F"
-            BuildableName = "Pong!.app"
-            BlueprintName = "Pong!"
+            BlueprintIdentifier = "82C752221E8F90B10021DB6F"
+            BuildableName = "WatchGame.app"
+            BlueprintName = "WatchGame"
             ReferencedContainer = "container:Pong!.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "82C752221E8F90B10021DB6F"
+            BuildableName = "WatchGame.app"
+            BlueprintName = "WatchGame"
+            ReferencedContainer = "container:Pong!.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>WatchGame (Notification).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>WatchGame.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>WatchSprite.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +33,11 @@
 			<true/>
 		</dict>
 		<key>82C7520E1E8F90990021DB6F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>82C752221E8F90B10021DB6F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
