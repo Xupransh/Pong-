@@ -17,7 +17,7 @@
                BlueprintIdentifier = "82C752221E8F90B10021DB6F"
                BuildableName = "WatchGame.app"
                BlueprintName = "WatchGame"
-               ReferencedContainer = "container:Pong!.xcodeproj">
+               ReferencedContainer = "container:WatchSprite.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "82C751E91E8F90990021DB6F"
-               BuildableName = "Pong!.app"
-               BlueprintName = "Pong!"
-               ReferencedContainer = "container:Pong!.xcodeproj">
+               BuildableName = "WatchSprite.app"
+               BlueprintName = "WatchSprite"
+               ReferencedContainer = "container:WatchSprite.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -49,7 +49,7 @@
             BlueprintIdentifier = "82C752221E8F90B10021DB6F"
             BuildableName = "WatchGame.app"
             BlueprintName = "WatchGame"
-            ReferencedContainer = "container:Pong!.xcodeproj">
+            ReferencedContainer = "container:WatchSprite.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -74,7 +74,7 @@
             BlueprintIdentifier = "82C752221E8F90B10021DB6F"
             BuildableName = "WatchGame.app"
             BlueprintName = "WatchGame"
-            ReferencedContainer = "container:Pong!.xcodeproj">
+            ReferencedContainer = "container:WatchSprite.xcodeproj">
          </BuildableReference>
       </RemoteRunnable>
       <MacroExpansion>
@@ -83,7 +83,7 @@
             BlueprintIdentifier = "82C752221E8F90B10021DB6F"
             BuildableName = "WatchGame.app"
             BlueprintName = "WatchGame"
-            ReferencedContainer = "container:Pong!.xcodeproj">
+            ReferencedContainer = "container:WatchSprite.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -104,7 +104,7 @@
             BlueprintIdentifier = "82C752221E8F90B10021DB6F"
             BuildableName = "WatchGame.app"
             BlueprintName = "WatchGame"
-            ReferencedContainer = "container:Pong!.xcodeproj">
+            ReferencedContainer = "container:WatchSprite.xcodeproj">
          </BuildableReference>
       </RemoteRunnable>
       <MacroExpansion>
@@ -113,7 +113,7 @@
             BlueprintIdentifier = "82C752221E8F90B10021DB6F"
             BuildableName = "WatchGame.app"
             BlueprintName = "WatchGame"
-            ReferencedContainer = "container:Pong!.xcodeproj">
+            ReferencedContainer = "container:WatchSprite.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

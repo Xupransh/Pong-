@@ -100,7 +100,7 @@
 		828581D61E921D230004664D /* PressStart2P.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PressStart2P.ttf; sourceTree = "<group>"; };
 		828581E11E9223AD0004664D /* PressStart2P.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PressStart2P.ttf; sourceTree = "<group>"; };
 		828581E91E924DFF0004664D /* menuInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menuInterfaceController.swift; sourceTree = "<group>"; };
-		82C751EA1E8F90990021DB6F /* Pong!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pong!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82C751EA1E8F90990021DB6F /* WatchSprite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchSprite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82C751ED1E8F90990021DB6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82C751EF1E8F90990021DB6F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		82C751F11E8F90990021DB6F /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
@@ -110,10 +110,10 @@
 		82C751FA1E8F90990021DB6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82C751FD1E8F90990021DB6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82C751FF1E8F90990021DB6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		82C752041E8F90990021DB6F /* Pong!Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pong!Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82C752041E8F90990021DB6F /* WatchSpriteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchSpriteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82C752081E8F90990021DB6F /* WatchSpriteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSpriteTests.swift; sourceTree = "<group>"; };
 		82C7520A1E8F90990021DB6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		82C7520F1E8F90990021DB6F /* Pong!UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pong!UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82C7520F1E8F90990021DB6F /* WatchSpriteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchSpriteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82C752131E8F90990021DB6F /* WatchSpriteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSpriteUITests.swift; sourceTree = "<group>"; };
 		82C752151E8F90990021DB6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82C752231E8F90B10021DB6F /* WatchGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -177,9 +177,9 @@
 		82C751EB1E8F90990021DB6F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				82C751EA1E8F90990021DB6F /* Pong!.app */,
-				82C752041E8F90990021DB6F /* Pong!Tests.xctest */,
-				82C7520F1E8F90990021DB6F /* Pong!UITests.xctest */,
+				82C751EA1E8F90990021DB6F /* WatchSprite.app */,
+				82C752041E8F90990021DB6F /* WatchSpriteTests.xctest */,
+				82C7520F1E8F90990021DB6F /* WatchSpriteUITests.xctest */,
 				82C752231E8F90B10021DB6F /* WatchGame.app */,
 				82C7522F1E8F90B10021DB6F /* WatchGame Extension.appex */,
 			);
@@ -249,9 +249,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		82C751E91E8F90990021DB6F /* Pong! */ = {
+		82C751E91E8F90990021DB6F /* WatchSprite */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 82C752181E8F90990021DB6F /* Build configuration list for PBXNativeTarget "Pong!" */;
+			buildConfigurationList = 82C752181E8F90990021DB6F /* Build configuration list for PBXNativeTarget "WatchSprite" */;
 			buildPhases = (
 				82C751E61E8F90990021DB6F /* Sources */,
 				82C751E71E8F90990021DB6F /* Frameworks */,
@@ -263,14 +263,14 @@
 			dependencies = (
 				82C752441E8F90B10021DB6F /* PBXTargetDependency */,
 			);
-			name = "Pong!";
+			name = WatchSprite;
 			productName = WatchSprite;
-			productReference = 82C751EA1E8F90990021DB6F /* Pong!.app */;
+			productReference = 82C751EA1E8F90990021DB6F /* WatchSprite.app */;
 			productType = "com.apple.product-type.application";
 		};
-		82C752031E8F90990021DB6F /* Pong!Tests */ = {
+		82C752031E8F90990021DB6F /* WatchSpriteTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 82C7521B1E8F90990021DB6F /* Build configuration list for PBXNativeTarget "Pong!Tests" */;
+			buildConfigurationList = 82C7521B1E8F90990021DB6F /* Build configuration list for PBXNativeTarget "WatchSpriteTests" */;
 			buildPhases = (
 				82C752001E8F90990021DB6F /* Sources */,
 				82C752011E8F90990021DB6F /* Frameworks */,
@@ -281,14 +281,14 @@
 			dependencies = (
 				82C752061E8F90990021DB6F /* PBXTargetDependency */,
 			);
-			name = "Pong!Tests";
+			name = WatchSpriteTests;
 			productName = WatchSpriteTests;
-			productReference = 82C752041E8F90990021DB6F /* Pong!Tests.xctest */;
+			productReference = 82C752041E8F90990021DB6F /* WatchSpriteTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		82C7520E1E8F90990021DB6F /* Pong!UITests */ = {
+		82C7520E1E8F90990021DB6F /* WatchSpriteUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 82C7521E1E8F90990021DB6F /* Build configuration list for PBXNativeTarget "Pong!UITests" */;
+			buildConfigurationList = 82C7521E1E8F90990021DB6F /* Build configuration list for PBXNativeTarget "WatchSpriteUITests" */;
 			buildPhases = (
 				82C7520B1E8F90990021DB6F /* Sources */,
 				82C7520C1E8F90990021DB6F /* Frameworks */,
@@ -299,9 +299,9 @@
 			dependencies = (
 				82C752111E8F90990021DB6F /* PBXTargetDependency */,
 			);
-			name = "Pong!UITests";
+			name = WatchSpriteUITests;
 			productName = WatchSpriteUITests;
-			productReference = 82C7520F1E8F90990021DB6F /* Pong!UITests.xctest */;
+			productReference = 82C7520F1E8F90990021DB6F /* WatchSpriteUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		82C752221E8F90B10021DB6F /* WatchGame */ = {
@@ -373,7 +373,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 82C751E51E8F90990021DB6F /* Build configuration list for PBXProject "Pong!" */;
+			buildConfigurationList = 82C751E51E8F90990021DB6F /* Build configuration list for PBXProject "WatchSprite" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -386,9 +386,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				82C751E91E8F90990021DB6F /* Pong! */,
-				82C752031E8F90990021DB6F /* Pong!Tests */,
-				82C7520E1E8F90990021DB6F /* Pong!UITests */,
+				82C751E91E8F90990021DB6F /* WatchSprite */,
+				82C752031E8F90990021DB6F /* WatchSpriteTests */,
+				82C7520E1E8F90990021DB6F /* WatchSpriteUITests */,
 				82C752221E8F90B10021DB6F /* WatchGame */,
 				82C7522E1E8F90B10021DB6F /* WatchGame Extension */,
 			);
@@ -495,12 +495,12 @@
 /* Begin PBXTargetDependency section */
 		82C752061E8F90990021DB6F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 82C751E91E8F90990021DB6F /* Pong! */;
+			target = 82C751E91E8F90990021DB6F /* WatchSprite */;
 			targetProxy = 82C752051E8F90990021DB6F /* PBXContainerItemProxy */;
 		};
 		82C752111E8F90990021DB6F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 82C751E91E8F90990021DB6F /* Pong! */;
+			target = 82C751E91E8F90990021DB6F /* WatchSprite */;
 			targetProxy = 82C752101E8F90990021DB6F /* PBXContainerItemProxy */;
 		};
 		82C752321E8F90B10021DB6F /* PBXTargetDependency */ = {
@@ -672,7 +672,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = supransh.WatchSpriteTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pong!.app/Pong!";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatchSprite.app/WatchSprite";
 			};
 			name = Debug;
 		};
@@ -686,7 +686,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = supransh.WatchSpriteTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pong!.app/Pong!";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatchSprite.app/WatchSprite";
 			};
 			name = Release;
 		};
@@ -790,7 +790,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		82C751E51E8F90990021DB6F /* Build configuration list for PBXProject "Pong!" */ = {
+		82C751E51E8F90990021DB6F /* Build configuration list for PBXProject "WatchSprite" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				82C752161E8F90990021DB6F /* Debug */,
@@ -799,7 +799,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		82C752181E8F90990021DB6F /* Build configuration list for PBXNativeTarget "Pong!" */ = {
+		82C752181E8F90990021DB6F /* Build configuration list for PBXNativeTarget "WatchSprite" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				82C752191E8F90990021DB6F /* Debug */,
@@ -808,7 +808,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		82C7521B1E8F90990021DB6F /* Build configuration list for PBXNativeTarget "Pong!Tests" */ = {
+		82C7521B1E8F90990021DB6F /* Build configuration list for PBXNativeTarget "WatchSpriteTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				82C7521C1E8F90990021DB6F /* Debug */,
@@ -817,7 +817,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		82C7521E1E8F90990021DB6F /* Build configuration list for PBXNativeTarget "Pong!UITests" */ = {
+		82C7521E1E8F90990021DB6F /* Build configuration list for PBXNativeTarget "WatchSpriteUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				82C7521F1E8F90990021DB6F /* Debug */,
